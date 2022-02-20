@@ -35,3 +35,30 @@ print(a)
 print(b)
 print(c)
 
+# Output Variables
+a = "awesome"
+b = "w3school is "
+c = "cool"
+print("Python is " + a)
+print(b + c)
+
+# Global variables
+x = "awesome"
+
+def my_func():
+    print("Python is " + x)
+
+my_func()
+
+
+# Create a variable inside a function, with the same name as global variable
+z = "cool"
+def my_func1():
+    z = "fantastic"
+    print("w3school is " + z)
+
+my_func1()
+
+print("Python is " + z)
+
+
